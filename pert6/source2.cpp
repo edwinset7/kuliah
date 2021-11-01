@@ -15,9 +15,12 @@ int main (){
 }
 
 long factorial (long a)
+
 { 
+    
     long i, hasil1=1;
     for (i=1; i<=a; i++)
     hasil1 = hasil1*i;
     return (hasil1);
+
 }
